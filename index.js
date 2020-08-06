@@ -226,8 +226,8 @@ const container = document.querySelector(".section__container");
 window.addEventListener('resize', function (e) {
     let viewport_width = Math.min(document.documentElement.clientWidth, window.innerWidth || 0);
     if (viewport_width <= 1360) {
-        header.style.width = viewport_width + "px";
-        container.style.maxWidth = viewport_width - 260 + "px";
+        // header.style.width = viewport_width + "px";
+        // container.style.maxWidth = viewport_width - 260 + "px";
         if (viewport_width <= 1080) {
             addBlock.style.width = viewport_width - 60 + "px";
             video.classList.remove('youtube');
